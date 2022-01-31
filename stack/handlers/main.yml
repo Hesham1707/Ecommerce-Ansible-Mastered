@@ -1,0 +1,12 @@
+---
+# handlers file for stack
+-
+  name: handler to insert data into database upon creation
+  mysql_db:
+      state: import
+      name: ecomdb
+      target: /var/www/html/assets/db-load-script.sql
+- name: restart mysql
+  service: 
+    name: mysql 
+    state: restarted

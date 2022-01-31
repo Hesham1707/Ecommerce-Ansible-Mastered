@@ -1,0 +1,6 @@
+---
+# defaults file for stack
+db_name: ecomdb
+db_user_name:  ecomuser
+db_user_password: ecompassword
+db_user_host: localhost

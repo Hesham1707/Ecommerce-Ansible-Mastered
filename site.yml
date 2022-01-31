@@ -1,0 +1,3 @@
+---
+- import_playbook: playbook.yml
+- import_playbook: check_status.yml
